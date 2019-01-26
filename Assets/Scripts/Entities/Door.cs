@@ -2,17 +2,11 @@
 
 namespace GameJam
 {
-	public class Door : MonoBehaviour
+	public class Door : Entity
 	{
-		public string item;
-		public GameObject door;
-
-		public void CheckOpen()
+		private void Start()
 		{
-			if(Inventory.HasItem(item))
-			{
-				door.SetActive(false);
-			}
+			useable = true;
 		}
 	}
 }

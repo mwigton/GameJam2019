@@ -85,8 +85,96 @@ ModelImporter:
     4300020: Cube.002
     4300022: Cube.003
     4300024: Cube.004
+    6400000: Cube
+    6400002: Cube.001
+    6400004: Cube.002
+    6400006: Cube.003
+    6400008: Cube.004
+    6400010: Cube.005
+    6400012: Cube55
+    6400014: Cylinder
+    6400016: Cylinder.001
+    6400018: Grid
+    6400020: Plane
+    6400022: Room
+    6400024: Torus.001
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAKEMIRROR
+    second: {fileID: 2100000, guid: 7331088521c0ffa4992524723815dc1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: 654222c01c202b84c90eb3e1a24519d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: a47f39ca20cb80b4db5e7b81b68b7bde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 824ed1231cb5f2241aa8c3fa7cf6ba8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: 6db56a3e30756f5429cca15b54e2b690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.026
+    second: {fileID: 2100000, guid: 57545848e14bdd240a362d657e0383b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.028
+    second: {fileID: 2100000, guid: f461d181deaf4404d85f9cf1f39551b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.032
+    second: {fileID: 2100000, guid: 4bcfbe9218986934eac4afd65de8fdb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 78a1610522ce1e14a988fa1a58b1a62e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: curtianSomething
+    second: {fileID: 2100000, guid: ce96610a4d8516f4f8dea8d04badf554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greyish
+    second: {fileID: 2100000, guid: f08eb74b2fc263c4a8dcc8a40d507353, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sand
+    second: {fileID: 2100000, guid: df030291bd3384c459e8d1c1a11189e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towel
+    second: {fileID: 2100000, guid: 2711493166bcfda469c34b424abe2714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 98635451ed7063f4aa43783d632d08f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: 94db17823a830394e93213ae667d2404, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -119,7 +207,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1.2
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
