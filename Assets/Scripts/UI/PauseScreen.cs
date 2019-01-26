@@ -18,10 +18,11 @@ namespace GameJam
 
 		public void SetPaused(bool paused)
 		{
-			Debug.Log(paused);
-			pauseScreen.SetActive(m_paused);
-			Time.timeScale = m_paused ? 0 : 1;
-			Cursor.lockState = m_paused ? CursorLockMode.None : CursorLockMode.Confined;
+			m_paused = paused;
+			pauseScreen.SetActive(paused);
+			Time.timeScale = paused ? 0 : 1;
+			Cursor.lockState = paused ? CursorLockMode.None : CursorLockMode.Confined;
+			Cursor.visible = paused;
 		}
 	}
 }
