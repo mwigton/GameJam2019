@@ -4,8 +4,14 @@ namespace GameJam
 {
 	public class PauseScreen : MonoBehaviour
 	{
+		public static PauseScreen Instance { get; private set; }
 		public GameObject pauseScreen;
 		private bool m_paused = false;
+
+		private void Start()
+		{
+			Instance = this;
+		}
 
 		public void Update()
 		{
