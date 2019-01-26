@@ -5,128 +5,60 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Basement
     100002: Bathroom
-    100004: Camera
-    100006: FrontDoor
-    100008: //RootNode
-    100010: KidRoom
-    100012: Kitchen
-    100014: LivingLeft
-    100016: LivingRight
-    100018: Plane.001
-    100020: Room
+    100004: FrontDoor
+    100006: //RootNode
+    100008: KidRoom
+    100010: Kitchen
+    100012: LivingRight
+    100014: Plane.001
+    100016: Room
     400000: Basement
     400002: Bathroom
-    400004: Camera
-    400006: FrontDoor
-    400008: //RootNode
-    400010: KidRoom
-    400012: Kitchen
-    400014: LivingLeft
-    400016: LivingRight
-    400018: Plane.001
-    400020: Room
-    2000000: Camera
-    2100000: Material.001
-    2100002: Material.009
-    2100004: Material.006
-    2100006: Material.005
-    2100008: Material.011
-    2100010: Material.012
-    2100012: Material.010
-    2100014: Material.003
-    2100016: Material.004
-    2100018: Material.002
-    2100020: Material.008
+    400004: FrontDoor
+    400006: //RootNode
+    400008: KidRoom
+    400010: Kitchen
+    400012: LivingRight
+    400014: Plane.001
+    400016: Room
+    2100000: Material.011
+    2100002: Material.010
+    2100004: Material.001
+    2100006: Material.002
+    2100008: Material.004
+    2100010: Material.003
+    2100012: Material.012
+    2100014: Black
+    2100016: Material.006
+    2100018: Material.005
+    2100020: Material.009
     2100022: Material.007
-    2100024: Black
     2300000: Basement
     2300002: Bathroom
     2300004: FrontDoor
     2300006: KidRoom
     2300008: Kitchen
-    2300010: LivingLeft
-    2300012: LivingRight
-    2300014: Plane.001
-    2300016: Room
+    2300010: LivingRight
+    2300012: Plane.001
+    2300014: Room
     3300000: Basement
     3300002: Bathroom
     3300004: FrontDoor
     3300006: KidRoom
     3300008: Kitchen
-    3300010: LivingLeft
-    3300012: LivingRight
-    3300014: Plane.001
-    3300016: Room
-    4300000: LivingLeft
-    4300002: Plane.001
-    4300004: Basement
-    4300006: KidRoom
-    4300008: Bathroom
-    4300010: Kitchen
-    4300012: Room
-    4300014: LivingRight
-    4300016: FrontDoor
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Black
-    second: {fileID: 2100000, guid: 245f0557a26844bcc8b68221e0920f56, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 21af8c23e840d40aaa67da1ede471c57, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: f50167bf54cd440c39ffade99069eb83, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 586a0e97d4a6a4dcea506121a8631fcb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 3956bec60e9874c2682c1a16c6bbfd5d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: 14ea97d848faf4e7499f884edf0a0824, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.006
-    second: {fileID: 2100000, guid: ed5d7efbb561148ffa14ecb9ee4e59f3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.007
-    second: {fileID: 2100000, guid: c036de5f6a3304edd8743b85a74f61af, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.009
-    second: {fileID: 2100000, guid: 39a8139a2a44f4f12a51bc6053adb731, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.010
-    second: {fileID: 2100000, guid: ffee52b86a0414db89c27696540b15a1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.011
-    second: {fileID: 2100000, guid: c479fb512ca4044ffab633c59cecb0b9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.012
-    second: {fileID: 2100000, guid: 6062d681aed6643e0b919a594de316ec, type: 2}
+    3300010: LivingRight
+    3300012: Plane.001
+    3300014: Room
+    4300000: Plane.001
+    4300002: Basement
+    4300004: KidRoom
+    4300006: Bathroom
+    4300008: Kitchen
+    4300010: Room
+    4300012: LivingRight
+    4300014: FrontDoor
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -178,8 +110,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -206,7 +138,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
