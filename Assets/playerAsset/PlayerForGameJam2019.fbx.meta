@@ -30,6 +30,31 @@ ModelImporter:
     100048: right wrist
     100050: right wrist_end
     100052: spine
+    100054: Body
+    100056: Chest
+    100058: Head
+    100060: Head_end
+    100062: Hips
+    100064: Left ankle
+    100066: Left ankle_end
+    100068: Left arm
+    100070: Left elbow
+    100072: Left knee
+    100074: Left leg
+    100076: Left shoulder
+    100078: Left wrist
+    100080: Left wrist_end
+    100082: Neck
+    100084: Right ankle
+    100086: Right ankle_end
+    100088: Right arm
+    100090: Right elbow
+    100092: Right knee
+    100094: Right leg
+    100096: Right shoulder
+    100098: Right wrist
+    100100: Right wrist_end
+    100102: Spine
     400000: Armature
     400002: chest
     400004: head
@@ -57,12 +82,51 @@ ModelImporter:
     400048: right wrist
     400050: right wrist_end
     400052: spine
+    400054: Body
+    400056: Chest
+    400058: Head
+    400060: Head_end
+    400062: Hips
+    400064: Left ankle
+    400066: Left ankle_end
+    400068: Left arm
+    400070: Left elbow
+    400072: Left knee
+    400074: Left leg
+    400076: Left shoulder
+    400078: Left wrist
+    400080: Left wrist_end
+    400082: Neck
+    400084: Right ankle
+    400086: Right ankle_end
+    400088: Right arm
+    400090: Right elbow
+    400092: Right knee
+    400094: Right leg
+    400096: Right shoulder
+    400098: Right wrist
+    400100: Right wrist_end
+    400102: Spine
     2100000: PlayerCharacter
+    2100002: mainOutfit
+    2100004: EYESMOUTH
     4300000: Icosphere
+    4300002: Body
     9500000: //RootNode
     13700000: Icosphere
+    13700002: Body
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYESMOUTH
+    second: {fileID: 2100000, guid: 6ee576b84311344b98883370166fae0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainOutfit
+    second: {fileID: 2100000, guid: a692bfaae9a874231a1c94895d678879, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -115,7 +179,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.4
+    previousCalculatedGlobalScale: 0.004
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
@@ -290,7 +354,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Armature
       parentName: PlayerForGameJam2019(Clone)
-      position: {x: -0, y: 70.7008, z: 0}
+      position: {x: -0, y: 0.707008, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: hips
@@ -300,122 +364,122 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: left leg
       parentName: hips
-      position: {x: -0.011075618, y: 0.019382322, z: -0.1605964}
+      position: {x: -0.000110756184, y: 0.00019382323, z: -0.0016059641}
       rotation: {x: 0.98836815, y: 0.020811772, z: 0.13460107, w: -0.06765939}
       scale: {x: 1.0000007, y: 1, z: 1.0000037}
     - name: left knee
       parentName: left leg
-      position: {x: -0.0000000022351743, y: 0.3733571, z: -0.000000019185245}
+      position: {x: -2.2351744e-11, y: 0.0037335712, z: -1.9185246e-10}
       rotation: {x: 0.014088675, y: -0.13242593, z: 0.031830445, w: 0.9905815}
       scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: left ankle
       parentName: left knee
-      position: {x: -9.1689e-10, y: 0.23283184, z: 0.0000000065647154}
+      position: {x: -9.168901e-12, y: 0.0023283185, z: 6.564716e-11}
       rotation: {x: 0.34312722, y: 0.55345297, z: -0.44010097, w: 0.6182756}
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: left ankle_end
       parentName: left ankle
-      position: {x: -0, y: 0.30033067, z: 0}
+      position: {x: -0, y: 0.003003307, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: right leg
       parentName: hips
-      position: {x: -0.011075618, y: 0.019382333, z: 0.1605964}
+      position: {x: -0.000110756184, y: 0.00019382335, z: 0.0016059641}
       rotation: {x: 0.9878417, y: 0.03837869, z: 0.13840653, w: 0.05949281}
       scale: {x: 1.0000007, y: 1, z: 1.0000036}
     - name: right knee
       parentName: right leg
-      position: {x: -0.0000000044703485, y: 0.3733571, z: 0.000000015832482}
+      position: {x: -4.4703487e-11, y: 0.0037335712, z: 1.5832483e-10}
       rotation: {x: -0.022190815, y: -0.14109954, z: 0.026818473, w: 0.9893833}
       scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: right ankle
       parentName: right knee
-      position: {x: -5.756419e-10, y: 0.23283188, z: -0.0000000026412779}
+      position: {x: -5.7564196e-12, y: 0.002328319, z: -2.641278e-11}
       rotation: {x: 0.44010016, y: 0.61827594, z: -0.34312752, w: 0.553453}
       scale: {x: 0.9999999, y: 0.9999998, z: 1}
     - name: right ankle_end
       parentName: right ankle
-      position: {x: -0, y: 0.30033067, z: 0}
+      position: {x: -0, y: 0.003003307, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: spine
       parentName: hips
-      position: {x: -0, y: 0.19277352, z: 0}
+      position: {x: -0, y: 0.0019277354, z: 0}
       rotation: {x: 0, y: -0.000000119209275, z: -0, w: 1}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: chest
       parentName: spine
-      position: {x: -0, y: 0.28381267, z: 0}
+      position: {x: -0, y: 0.0028381268, z: 0}
       rotation: {x: 0, y: 0.00000011920927, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: left shoulder
       parentName: chest
-      position: {x: -0, y: 0.21920486, z: 0}
+      position: {x: -0, y: 0.0021920488, z: 0}
       rotation: {x: -0.8040134, y: 4.2249656e-15, z: 5.712858e-15, w: 0.5946112}
       scale: {x: 1, y: 0.99999994, z: 0.9999999}
     - name: left arm
       parentName: left shoulder
-      position: {x: -0, y: 0.18602043, z: 0.000000023841856}
+      position: {x: -0, y: 0.0018602045, z: 2.384186e-10}
       rotation: {x: -0.2395473, y: -1.3000283e-29, z: -3.900085e-29, w: 0.97088474}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: left elbow
       parentName: left arm
-      position: {x: -0, y: 0.25947088, z: 0.000000023841856}
+      position: {x: -0, y: 0.002594709, z: 2.384186e-10}
       rotation: {x: -0.22180372, y: -0.00000011623992, z: 0.000000026441057, w: 0.97509134}
       scale: {x: 1, y: 0.9999999, z: 1}
     - name: left wrist
       parentName: left elbow
-      position: {x: 5.6843415e-15, y: 0.36744726, z: -0.000000017881394}
+      position: {x: 5.684342e-17, y: 0.003674473, z: -1.7881395e-10}
       rotation: {x: -0.0028811519, y: 0.00000011920879, z: 3.4345704e-10, w: 0.9999959}
       scale: {x: 1, y: 1, z: 1}
     - name: left wrist_end
       parentName: left wrist
-      position: {x: -0, y: 0.10186111, z: 0}
+      position: {x: -0, y: 0.0010186111, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: neck
       parentName: chest
-      position: {x: -0, y: 0.21920486, z: 0}
+      position: {x: -0, y: 0.0021920488, z: 0}
       rotation: {x: 0, y: 7.1054274e-15, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: head
       parentName: neck
-      position: {x: -0, y: 0.13152294, z: 0}
+      position: {x: -0, y: 0.0013152295, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: head_end
       parentName: head
-      position: {x: -0, y: 0.22843456, z: 0}
+      position: {x: -0, y: 0.0022843457, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: right shoulder
       parentName: chest
-      position: {x: -0, y: 0.21920486, z: 0}
+      position: {x: -0, y: 0.0021920488, z: 0}
       rotation: {x: 0.8040134, y: -0.00000021264994, z: -0.00000028753817, w: 0.5946112}
       scale: {x: 1, y: 0.99999994, z: 0.9999999}
     - name: right arm
       parentName: right shoulder
-      position: {x: 1.1591621e-16, y: 0.18602043, z: -0.000000023841856}
+      position: {x: 1.1591621e-18, y: 0.0018602045, z: -2.384186e-10}
       rotation: {x: 0.2395473, y: 0.00000023147771, z: -0.000000114225145, w: 0.97088474}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: right elbow
       parentName: right arm
-      position: {x: 1.1591617e-16, y: 0.25947088, z: -0.000000023841856}
+      position: {x: 1.1591618e-18, y: 0.002594709, z: -2.384186e-10}
       rotation: {x: 0.2218038, y: -8.237529e-14, z: -0.000000052882108, w: 0.97509134}
       scale: {x: 1, y: 1, z: 1}
     - name: right wrist
       parentName: right elbow
-      position: {x: -1.03275636e-14, y: 0.3674473, z: -0.0000000923872}
+      position: {x: -1.03275644e-16, y: 0.0036744731, z: -9.2387203e-10}
       rotation: {x: 0.0028810997, y: 0.000000119208785, z: -3.4346995e-10, w: 0.9999959}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: right wrist_end
       parentName: right wrist
-      position: {x: -0, y: 0.1018611, z: 0}
+      position: {x: -0, y: 0.001018611, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Icosphere
       parentName: PlayerForGameJam2019(Clone)
-      position: {x: -0, y: 0.000009536743, z: 0}
+      position: {x: -0, y: 0.00000009536744, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
