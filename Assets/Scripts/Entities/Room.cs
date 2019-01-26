@@ -13,6 +13,7 @@ namespace GameJam
 
 		public void CheckComplete()
 		{
+			Debug.Log("Checking room complete: " + gameObject.name, this);
 			if (m_inventoryItems.TrueForAll(x => x.Collected))
 			{
 				Complete();
@@ -21,6 +22,7 @@ namespace GameJam
 
 		public void Complete()
 		{
+			Debug.Log("Room complete: " + gameObject.name, this);
 			m_completeEntities.ForEach(x => x.Destroy());
 		}
 	}
