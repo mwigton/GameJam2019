@@ -12,6 +12,7 @@ namespace GameJam
 		private void OnTriggerEnter(Collider other)
 		{
 			if (other.tag != "Player") return;
+			Debug.Log("Item collected: " + gameObject.name, this);
 			Collected = true;
 			Inventory.Add(itemName);
 			gameObject.SetActive(false);
