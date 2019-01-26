@@ -65,6 +65,15 @@ ModelImporter:
     4300012: Room
     4300014: LivingRight
     4300016: FrontDoor
+    6400000: Basement
+    6400002: Bathroom
+    6400004: FrontDoor
+    6400006: KidRoom
+    6400008: Kitchen
+    6400010: LivingLeft
+    6400012: LivingRight
+    6400014: Plane.001
+    6400016: Room
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -96,9 +105,9 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 1.2
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
