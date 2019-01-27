@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace GameJam
 {
@@ -10,6 +11,7 @@ namespace GameJam
 		public AudioSource audioSource;
 		public GameObject playerModelItem;
 		public GameObject playerModelItem1;
+		public GameObject prompt;
 
 		public bool Collected { get; private set; }
 
@@ -27,6 +29,15 @@ namespace GameJam
 			if(playerModelItem != null) playerModelItem.SetActive(true);
 			if(playerModelItem1 != null) playerModelItem1.SetActive(true);
 			OnTrigger();
+			StartCoroutine(ShowPrompt());
+		}
+
+		private IEnumerator ShowPrompt()
+		{
+			if (prompt == null) yield break;
+			prompt.SetActive(true);
+			yield return new WaitForSeconds(5);
+			prompt.SetActive(false);
 		}
 	}
 }
