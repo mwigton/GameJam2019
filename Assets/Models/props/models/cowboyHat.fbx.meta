@@ -10,7 +10,17 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatring
+    second: {fileID: 2100000, guid: 3dbf89213f47eb14bb1d070144f68b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainHat
+    second: {fileID: 2100000, guid: 9008e39a5e3b69a46802f1f1d2d1efe7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
