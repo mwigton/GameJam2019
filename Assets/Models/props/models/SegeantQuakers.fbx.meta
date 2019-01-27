@@ -19,7 +19,12 @@ ModelImporter:
     3300002: //RootNode
     4300000: Sergeant_Quakers
     10800000: Lamp
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0.001
+    second: {fileID: 2100000, guid: 750232b1864ebde4e9b7503cb59acf5c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
