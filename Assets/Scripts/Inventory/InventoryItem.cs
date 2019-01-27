@@ -8,6 +8,7 @@ namespace GameJam
 		public string itemName;
 		public AudioSource audioSource;
 		public GameObject playerModelItem;
+		public GameObject playerModelItem1;
 
 		public bool Collected { get; private set; }
 
@@ -21,6 +22,7 @@ namespace GameJam
 			Inventory.Add(itemName);
 			model.SetActive(false);
 			playerModelItem.SetActive(true);
+			playerModelItem1.SetActive(true);
 		}
 	}
 }
