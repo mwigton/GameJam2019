@@ -190,6 +190,39 @@ ModelImporter:
     4300060: Plane.002
     4300062: Plane.001
     4300064: Plane
+    6400000: Cube
+    6400002: Cube.001
+    6400004: Cube.001_Cube.002
+    6400006: Cube.002
+    6400008: Cube.003
+    6400010: Cube.003_Cube.008
+    6400012: Cube.004
+    6400014: Cube.005
+    6400016: Cube.006
+    6400018: Cube.007
+    6400020: Cube.008
+    6400022: Cube.009
+    6400024: Cube.010
+    6400026: Cube.011
+    6400028: Cube.012
+    6400030: Cube.013
+    6400032: Cube.014
+    6400034: Cube.015
+    6400036: Cube.016
+    6400038: Cube.017
+    6400040: Cube.018
+    6400042: Cube.019
+    6400044: Cube.020
+    6400046: Kitchen_Cube.043
+    6400048: Plane
+    6400050: Plane.001
+    6400052: Plane.001_Plane.000
+    6400054: Plane.002
+    6400056: Plane.003
+    6400058: Plane.004
+    6400060: Plane.005
+    6400062: Plane.006
+    6400064: Torus
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -323,7 +356,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1

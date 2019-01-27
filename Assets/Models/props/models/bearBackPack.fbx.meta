@@ -22,7 +22,27 @@ ModelImporter:
     4300000: Cube
     9500000: //RootNode
     13700000: Cube
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 58823443f7933a247b400137e19ca482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 81619e80dc2fcd7498c08f8d276162e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 641fe6d5632defa4ca8c295b3705385c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: peak
+    second: {fileID: 2100000, guid: 2a3017fbe2e927a47bb57619abb9cb39, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
