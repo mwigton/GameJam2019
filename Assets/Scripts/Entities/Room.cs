@@ -11,6 +11,9 @@ namespace GameJam
 		[SerializeField]
 		private List<InventoryItem> m_inventoryItems = new List<InventoryItem>();
 
+		[SerializeField]
+		private GameObject m_enterTrigger;
+
 		public void CheckComplete()
 		{
 			Debug.Log("Checking room complete: " + gameObject.name, this);
@@ -25,6 +28,7 @@ namespace GameJam
 			Debug.Log("Room complete: " + gameObject.name, this);
 			m_completeEntities.ForEach(x => x.Destroy());
 			m_completeEntities.Clear();
+			m_enterTrigger.SetActive(true);
 		}
 	}
 }

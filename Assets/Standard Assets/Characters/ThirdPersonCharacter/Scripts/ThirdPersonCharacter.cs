@@ -15,6 +15,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		[SerializeField] float m_MoveSpeedMultiplier = 1f;
 		[SerializeField] float m_AnimSpeedMultiplier = 1f;
 		[SerializeField] float m_GroundCheckDistance = 0.1f;
+		[SerializeField] AudioSource footStep;
 
 		Rigidbody m_Rigidbody;
 		Animator m_Animator;
@@ -29,6 +30,22 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+		bool m_moving = false;
+
+		private void Update()
+		{
+			if (!m_moving && m_ForwardAmount > 0)
+			{
+				footStep.Play();
+				m_moving = true;
+			}
+
+			if(m_moving && (!m_IsGrounded || m_ForwardAmount == 0))
+			{
+				footStep.Stop();
+				m_moving = false;
+			}
+		}
 
 		void Start()
 		{
