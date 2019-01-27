@@ -142,6 +142,26 @@ ModelImporter:
     4300034: Cube.001
     4300036: Cube.005
     4300038: Plane.005
+    6400000: Cube
+    6400002: Cube.001
+    6400004: Cube.002
+    6400006: Cube.003
+    6400008: Cube.004
+    6400010: Cube.005
+    6400012: Cube.006
+    6400014: Cube.007
+    6400016: Cube.008
+    6400018: Cube.009
+    6400020: Kitchen
+    6400022: Matress
+    6400024: Plane
+    6400026: Plane.001
+    6400028: Plane.002
+    6400030: Plane.003
+    6400032: Plane.004
+    6400034: Plane.005
+    6400036: Plane.006
+    6400038: Plane.007
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -360,7 +380,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
