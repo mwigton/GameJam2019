@@ -30,5 +30,10 @@ namespace GameJam
 			transform.position = target.position;
 			transform.rotation = target.rotation;
 		}
+
+		public void SetScale(float scale)
+		{
+			transform.localScale = new Vector3(scale, scale, scale);
+		}
 	}
 }

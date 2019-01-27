@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
 namespace GameJam
 {
@@ -12,6 +13,8 @@ namespace GameJam
 
 		public bool Collected { get; private set; }
 
+		protected virtual void OnTrigger() { }
+
 		private void OnTriggerEnter(Collider other)
 		{
 			if (Collected) return;
@@ -21,8 +24,9 @@ namespace GameJam
 			Collected = true;
 			Inventory.Add(itemName);
 			model.SetActive(false);
-			playerModelItem.SetActive(true);
-			playerModelItem1.SetActive(true);
+			if(playerModelItem != null) playerModelItem.SetActive(true);
+			if(playerModelItem1 != null) playerModelItem1.SetActive(true);
+			OnTrigger();
 		}
 	}
 }
